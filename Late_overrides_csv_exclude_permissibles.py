@@ -1,3 +1,15 @@
+"""
+Module with a functions to read CSV files containing logged overrides and 
+committed line items (TA 1.0 line items, Invoice Management, and Member-level 
+Billing student term line items (STLIs)), and then identify late-reported 
+overrides, exlude a list of permissable exceptions, and finally  write the 
+results to csv.
+
+Author: Emily Ciarabellini
+Date: 4/21/2023
+"""
+
+
 import pandas as pd
 import csv
 
